@@ -4,7 +4,7 @@ from pyspark.sql.functions import *
 import os.path
 import yaml
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     os.environ['PYSPARK_SUBMIT_ARGS'] = ('--packages "org.apache.hadoop:hadoop-aws:2.7.4" pyspark-shell')
 
     # Creating Spark Session

@@ -1,5 +1,5 @@
 s3_conf:
-  s3_bucket: test-manisha-tes
+  s3_bucket: test-manisha-test
 
 sftp_conf:
     filetype: csv
